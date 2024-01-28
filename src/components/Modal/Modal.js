@@ -46,7 +46,6 @@ const ModalPopup = ({ isPopupOpen, closePopup }) => {
             "segment_name": segmentName,
             "schema": selectedSchemaData
         }
-        // console.log(segmentData,"data");
 
         try {
             const webhookUrl = 'https://webhook.site/f2d4bb49-095c-4bd7-bfa6-b6a7b1f99b19';
